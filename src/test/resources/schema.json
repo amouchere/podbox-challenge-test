@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "array",
+  "items": {
+    "id": "http://jsonschema.net/0",
+    "type": "object",
+    "properties": {
+      "rank": {
+        "id": "http://jsonschema.net/0/rank",
+        "type": "integer"
+      },
+      "title": {
+        "id": "http://jsonschema.net/0/title",
+        "type": "string"
+      },
+      "artist": {
+        "id": "http://jsonschema.net/0/artist",
+        "type": "string"
+      },
+      "spotifyUri": {
+        "id": "http://jsonschema.net/0/spotifyUri",
+        "type": "string"
+      }
+    },
+    "required": [
+      "rank",
+      "title",
+      "artist",
+      "spotifyUri"
+    ]
+  },
+  "required": [
+    "0"
+  ]
+}
