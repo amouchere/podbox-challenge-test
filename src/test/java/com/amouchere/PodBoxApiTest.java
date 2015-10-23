@@ -1,9 +1,10 @@
 package com.amouchere;
 
-import org.testng.annotations.*;
-import static com.jayway.restassured.RestAssured.*;
-import static com.jayway.restassured.module.jsv.JsonSchemaValidator.*;
-import static org.hamcrest.Matchers.*;
+import org.testng.annotations.Test;
+
+import static com.jayway.restassured.RestAssured.get;
+import static com.jayway.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+import static org.hamcrest.Matchers.hasItems;
 
 /**
  * Created by LaBete on 22/10/2015.
